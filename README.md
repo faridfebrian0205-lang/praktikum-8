@@ -49,6 +49,10 @@ Menangani error kustom dari operator tidak valid.
 - Jika pengguna mengetik y, program mengulang dari awal.
 - Jika tidak, program berhenti dengan break.
 
+**HASIL OUTPUT KALKULATOR AMAN**
+
+ <img width="492" height="275" alt="image" src="https://github.com/user-attachments/assets/d232b8ad-8f7f-4f68-b212-ea3fd22466fc" />
+
 **--Program validasi data--**
 
  <img width="317" height="29" alt="image" src="https://github.com/user-attachments/assets/538d485e-6750-46de-9ecb-5a8f838bb673" />
@@ -88,3 +92,8 @@ Perulangan for digunakan untuk mengakses setiap elemen di dalam list nilai satu 
 - try-except digunakan untuk menangani error tanpa menghentikan program.
 - Hanya data numerik yang dihitung dalam rata-rata.
 - Hasil akhir rata-rata adalah 85.0.
+
+**HASIL OUTPUT VALIDASI DATA**
+
+<img width="496" height="93" alt="image" src="https://github.com/user-attachments/assets/cfb1f5b7-4139-4f14-b6ef-9faa8a29811b" />
+
