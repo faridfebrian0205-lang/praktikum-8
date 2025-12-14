@@ -50,3 +50,41 @@ Menangani error kustom dari operator tidak valid.
 - Jika tidak, program berhenti dengan break.
 
 **--Program validasi data--**
+
+ <img width="317" height="29" alt="image" src="https://github.com/user-attachments/assets/538d485e-6750-46de-9ecb-5a8f838bb673" />
+
+List nilai berisi campuran data angka (int) dan string. Data string inilah yang berpotensi menyebabkan error saat proses penjumlahan.
+
+ <img width="172" height="53" alt="image" src="https://github.com/user-attachments/assets/4d738978-f8a1-4ba1-bac4-8e4209b746ab" />
+
+- total digunakan untuk menyimpan jumlah seluruh nilai yang valid (angka).
+- jumlah_data digunakan untuk menghitung berapa banyak data angka yang berhasil diproses.
+
+ <img width="175" height="25" alt="image" src="https://github.com/user-attachments/assets/262a4ece-3f34-40e4-8628-e0309f9b1d7c" />
+
+Perulangan for digunakan untuk mengakses setiap elemen di dalam list nilai satu per satu.
+
+ <img width="323" height="105" alt="image" src="https://github.com/user-attachments/assets/e1dbda70-676b-42e6-875e-274b594ab210" />
+
+**try:**
+- Mencoba menambahkan nilai n ke variabel total.
+- Jika n berupa angka (int atau float), proses berhasil dan jumlah_data bertambah 1.
+- Jika n berupa string ('A' atau 'B'), Python akan menghasilkan TypeError karena string tidak bisa dijumlahkan dengan angka.
+
+**except TypeError:**
+- Error ditangani tanpa menghentikan program, lalu continue digunakan untuk melewati data tersebut dan melanjutkan ke iterasi berikutnya.
+
+<img width="296" height="36" alt="image" src="https://github.com/user-attachments/assets/45e8202b-7e12-44bf-9f72-57d3418d8307" />
+
+- Rata-rata dihitung dengan membagi total nilai valid dengan jumlah data numerik yang berhasil diproses.
+
+<img width="318" height="47" alt="image" src="https://github.com/user-attachments/assets/a97c3026-d076-4eca-b041-35401026c607" />
+
+- Menampilkan hasil rata-rata nilai yang hanya dihitung dari data angka.
+
+**Kesimpulan**
+
+- Program tetap berjalan meskipun terdapat data tidak valid.
+- try-except digunakan untuk menangani error tanpa menghentikan program.
+- Hanya data numerik yang dihitung dalam rata-rata.
+- Hasil akhir rata-rata adalah 85.0.
